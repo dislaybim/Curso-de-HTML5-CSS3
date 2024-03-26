@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+main{
+   text-align: center;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+body{
+  background-color: green;
+}
+p{
+  color: white;
+}

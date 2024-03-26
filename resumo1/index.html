@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dislaybson</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+</head>
+
+<body>
+  <center>Este é um texto centralizado</center>
+  <!-- Texto em negrito -->
+  <strong>Este texto está em negrito</strong>
+  <p>Este é um parágrafo de texto comum.</p>
+  <!-- Texto em itálico -->
+  <i>Este texto está em itálico</i>
+  <em>Este texto está em itálico também, com ênfase</em>
+  <!-- Texto sublinhado -->
+  <u>Este texto está sublinhado</u>
+  <!-- Texto pequeno -->
+  <small>Este é um texto pequeno</small>
+  <!-- Texto marcado -->
+  <mark>Este texto está marcado</mark>
+  <!-- Texto de código -->
+  <code>if (condition) { 
+      // code block 
+  }</code>
+  <!-- Texto pré-formatado -->
+  <pre>
+  Este é um texto pré-formatado.
+      Com múltiplas linhas e espaçamento
+      para manter a formatação.
+  </pre>
+  <!-- Citação -->
+  <blockquote>
+      "A criatividade é a inteligência se divertindo."
+  </blockquote>
+  <!-- Abreviação -->
+  <abbr title="Hypertext Markup Language">HTML</abbr>
+  <ol type="I">
+
+    <!--adicionar varios elementos-->
+    <li>comer arroz com feijão e margarina</li>
+    <li>beber vodica quatro oras da manhã</li>
+    <li>estudar portugues americano</li>
+    <li>pular 4 ondas no mar</li>
+    <li>vigiar aquela pessoa especial na esquina de casa</li>
+  </ol>
+
+  
+  <p><br>Agora vamos apresentar listas não ordenadas<br></p>
+  <ol type=square>
+
+    <!--adicionar varios elementos-->
+    <li>comer arroz com feijão e margarina</li>
+    <li>beber vodica quatro oras da manhã</li>
+    <li>estudar portugues americano</li>
+    <li>pular 4 ondas no mar</li>
+    <li>vigiar aquela pessoa especial na esquina de casa</li>
+  </ol>
+
+  <p><br><h2>LINGUAGENS FAVORITAS</h2><br></p>
+  <ol type="a">
+
+    <!--adicionar varios elementos-->
+    <li>C</li>
+    <li>PYTHON</li>
+    <li>JAVA</li>
+    <li>JAVASCRIPT</li>
+    <li>MATLAB</li>
+  </ol>
+  
+  <p><br>Aparti de agora a cobrar vai fumar, pois vamos utilizar os famosos links por meio do seu site, isso que é foda, (SEO) É fundamental para enderessar nossa página para ficar mais fácil de ser encontrada no google.<br></p>
+
+  <h1>USANDO LINKS EXTERNOS</h1>
+
+  <p><br>Esse é o link pessoal, para ficar muito massa: <a href="https://github.com/cursoemvideo/cursoemvideo-html5/blob/master/pacote-download/projeto-glass-html5/_textos/index-txt.html">Repositorio GitHUB</a><br></p>
+Só que tem um probleminha, quando clico nesse link, nunca mais o usuário voltara no seu site, pois o link clicado, sobrescreve o link do seu site.
+  <p><br>Esse é o link pessoal, para ficar muito massa: <a href="https://github.com/cursoemvideo/cursoemvideo-html5/blob/master/pacote-download/projeto-glass-html5/_textos/index-txt.html" target="_blank" rel="external">Repositorio GitHUB sem aquele erro</a><br></p>
+
+
+  <p><br><h2>USANDO LINKS INTERNOS</h2><br></p>
+
+
+  <p> Para utilizar esse recurso, é necessário ter outras páginas inclusas no seu projeto, haja vista que será pego outros links do seu projeto<br></p>
+
+  <p>esta é a minha primeira pagina, se quizer acessar a segunda é so vir aqui: <a href="segunda.html">segunda página galera</a><br></p>
+  
+   <p><br>LINKS PARA DOWNLOAD<br></p>
+  <a href="Descritivo_Trilha_de_Conhecimento_Excel_2016.pdf" download="Descritivo_Trilha_de_Conhecimento_Excel_2016.pdf" type="application/pdf">Baixar pdf aqui.</a>
+
+   <p> Não podemos colocar os sites na maior resolução, pois isso compromete o desempenho do site.<br></p>
+  
+  <p><br><h1>IMAGEM DINÂMICA</h1><br></p>
+  <p><br> Essa é a forma de a gente obter a imagem dinâmica, utilizando a tag picture.<br></p>
+
+  <picture>
+     <source media="(max-width: 750px)" srcset="d.png">
+    <source media="(max-width: 1000px)" srcset="m.png">
+    <img src="g.png" alt="Imagem flexível">
+    
+  </picture>
+
+
+
+  <p><br>Trabalhar com mídias de tamanho diferente, é muito interessante essa informação.</p>
+
+
+  <p><br>Tenho habilidades nas seguintes ferramentas: C, C++, Python, Matlab, HTML5, CSS3. Futuramente desejo aprender Javascript e JAVA.<br></p>
+
+
+  <p><br> Agora vamos aprender a adicionar arquivos de audio e podcasts para seu site.<br></p>
+
+  <p><br><h1>REPRODUZIR AUDIOS</h1><br></p>
+  <audio src="musiquinha.mp3" controls autoplay></audio>
+
+  <p><br> Agora vamos aprender a adicionar Vídeos e formatar vídeos, utilizando a linguagem de marcação HTML.Vale ressaltar, quanto a problematica de exportar mídias com direitos autorais, para contornar essa situação idesejada, é bastante interessante acessar o seguinte site que serve para obter o download de fontes externas sem direitos autorais: <a href="https://www.pexels.com/pt-br/" target="_blank" rel="external">https://www.pexels.com/pt-br/</a><br></p>
+
+   <p><br><h1>INSERIR VÍDEOS HOSPEDADOS LOCALMENTE</h1><br></p>
+   <video src="video(540p).mp4" width="500" controls></video>
+
+  <p><br> Agora vamos expandir os conhecimentos, para poder importar vídeos diretamente do youtube, la no proprio youtube, ja fornecerá um script html para poder adicionar no nosso projeto, é só clicar em compartilhar no youtube, e essa ferramenta ja oferece a incorporação do nosso arquivo, logo embaixo irei mostrar na pratica.<br></p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/E2gaDa4ZaTc?si=iwFQ3B1gbODkHycW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  <p><br> Isso aqui tudo embaixo ta errado, adicionar essas tags, para acrescentar essas cores bregas deixa o texto arcaico, deve-se utilizar a ferramenta visual que é o css.<br></p>
+  <body bgcolor="blue"><h1>COISA</h1></body>
+    
+ 
+
+  
+
+  
+           
+  <img src="https://ufpi.edu.br/arquivos_download/arquivos/Bras%C3%A3o_UFPI_recortado.png" alt="isso é coisa de maluco ">
+
+  
+
+❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+  <script src="script.js"></script>
+</body>
+
+</html>

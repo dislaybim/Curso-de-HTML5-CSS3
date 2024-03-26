@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: linear-gradient(#3F00E6,#D500E6,#8A00E6,#000CE6);
+}
+main {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black; /*colocar 
+  sombra*/
+  text-align: justify; /*Alinhamento do texto escrito*/
+  width: 800px;
+  padding: 10px; /*deslocar um pouco a margem*/
+  margin: auto; 
+}
+h1{
+  font-family: Heveltica;
+  color: #8A00E6;
+}
+h2{
+  font-family: Heveltica;
+  color: #8A00E6;
+}
+p{
+  
+}
